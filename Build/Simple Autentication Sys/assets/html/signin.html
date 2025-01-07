@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/
+    font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Join</h1>
+
+            <div id="msgError"></div>
+
+            <div class="label-float">
+                <input type="text" id="user" paceholder="" required />
+                <label id="userLabel" for="user">User</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="password" paceholder="" required/>
+                <label id="passwordLabel" for="senh">Password</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="join()">Join</button>
+            </div>
+
+            <div class="justify-center">
+                <hr/>
+            </div>
+
+            <p>
+                No account?
+                <a href="./signup.html">
+                Register 
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <script src="../js/signin.js"></script>
+</body>
+</html>
